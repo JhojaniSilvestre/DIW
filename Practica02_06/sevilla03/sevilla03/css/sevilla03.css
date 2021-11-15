@@ -1,0 +1,21 @@
+#divisiones{
+    display: grid;
+    border: 1px solid #ff00ff;
+    grid-template-columns: 32%;
+    grid-template-rows: repeat(9, 500px);
+}
+
+@media (min-width: 400px) { 
+    #divisiones{
+        grid-template-columns: repeat(2, 32%);
+        grid-template-rows: repeat(5, 500px);
+    }
+}
+
+@media (min-width: 800px) { 
+    #divisiones{
+        grid-template-columns: repeat(3, 32%);
+        grid-template-rows: repeat(3, 500px);
+    }
+}
+
